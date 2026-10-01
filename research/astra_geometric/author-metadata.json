@@ -1,0 +1,46 @@
+{
+  "candidate": "codes/927-172-3.json",
+  "description": "Publication changes only author attribution and adds two provenance references. The historical recipe and gate describe the same checks, witnesses, parameters, and layout.",
+  "updated_fields": [
+    "provenance.authors",
+    "provenance.references"
+  ],
+  "historical_evidence_unchanged": true,
+  "stages": [
+    {
+      "label": "original recipe candidate",
+      "sha256": "a1362dda011870f76d2afb6016966f6081c822ded2bd5beb98b7e721130f9490",
+      "authors": [
+        "Vishal Bajpe"
+      ],
+      "references": []
+    },
+    {
+      "label": "confirmed author candidate",
+      "sha256": "a57f7889e9a8e2e314ac5a8897a41ed010872ba7cd58243eb9980ae115f11050",
+      "authors": [
+        "@mrvee-qC-bee"
+      ],
+      "references": []
+    },
+    {
+      "label": "publication candidate",
+      "sha256": "9f15a29b5cfb44aeac5e3af9d318355d20ee7d63c93799a0fec2c3a242bdf663",
+      "authors": [
+        "@mrvee-qC-bee"
+      ],
+      "references": [
+        "https://github.com/unitaryfoundation/qldpc-challenge/blob/ac8a779bc40524d56a6afdd2133eabd931c99c1f/notes/945-172-3.md",
+        "https://github.com/unitaryfoundation/qldpc-challenge/pull/2031"
+      ]
+    }
+  ],
+  "invariants": {
+    "checks_sha256": "f0b23ea5cfce117faedad6c688bf131bc2dce64a52c963268e0766798fed6bad",
+    "distance_witnesses_sha256": "d7b21ff0eea4e0a2f4bab472955c464bd27e74125ad4b924050df732999a6e40",
+    "parameters_checks_distance_locality_sha256": "ff36468f255aee82ce427485130e17ace6598ec17f75542d428ebd75abcbb4af",
+    "fingerprint": "05fd36dbdc05d086"
+  },
+  "only_listed_metadata_changed": true,
+  "trusted_structure_ok": true
+}
