@@ -1,6 +1,6 @@
 {
   "schema_version": "0.4",
-  "name": "[[155,6,25]] cyclic mirror",
+  "name": "[[155,6,24]] cyclic mirror",
   "code_type": "stabilizer",
   "n": 155,
   "k": 6,
@@ -2179,42 +2179,40 @@
     ]
   },
   "distance": {
-    "d": 25,
+    "d": 24,
     "P": {
-      "value": 25,
+      "value": 24,
       "confidence": "upper_bound",
       "witness": {
         "X": [
-          13,
-          14,
-          16,
-          23,
-          55,
-          58,
-          66,
-          67,
-          71,
-          73,
-          79,
-          101
+          2,
+          10,
+          17,
+          45,
+          61,
+          112,
+          113,
+          115,
+          122,
+          154
         ],
         "Z": [
-          4,
-          14,
-          26,
-          38,
-          46,
-          58,
+          10,
+          36,
+          48,
+          60,
           64,
-          66,
           70,
-          72,
-          88,
-          109,
-          111,
-          118,
-          135,
-          147
+          82,
+          94,
+          102,
+          114,
+          120,
+          122,
+          126,
+          128,
+          132,
+          144
         ]
       }
     }
@@ -2227,7 +2225,7 @@
     "origin": "submission",
     "date": "2026-10-01",
     "model": "GPT-6 Astra",
-    "notes": "Exploratory instance; upper bound only. Novelty unverified.",
+    "notes": "Independently searched instance within the established mirror-code family; novelty unverified. PR 2625 CI run 36861550907, seed 575463646, refuted the original distance-25 claim with the included weight-24 Pauli logical. Retained distance is a witnessed upper bound, d <= 24; the check matrix is unchanged.",
     "references": [
       "arXiv:2603.05496v1"
     ],
