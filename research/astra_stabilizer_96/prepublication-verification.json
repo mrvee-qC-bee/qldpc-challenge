@@ -1,0 +1,246 @@
+{
+  "name": "[[96,10,12]]",
+  "checks": [
+    {
+      "check": "schema_valid",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "qubit_indices_in_range",
+      "ok": true,
+      "detail": "max index 95, n=96"
+    },
+    {
+      "check": "no_repeated_qubits_in_a_check",
+      "ok": true,
+      "detail": "rows with repeats: []"
+    },
+    {
+      "check": "tanner_connected",
+      "ok": true,
+      "detail": "Tanner graph has 1 connected component(s)"
+    },
+    {
+      "check": "stabilizer_group_connected",
+      "ok": true,
+      "detail": "stabilizer group splits into 1 independent block(s) on disjoint qubit sets (sizes 96)"
+    },
+    {
+      "check": "stabilizer_commutation",
+      "ok": true,
+      "detail": "A B^T + B A^T = 0 over GF(2) (every pair of generators commutes)"
+    },
+    {
+      "check": "stabilizer_code_is_not_css",
+      "ok": true,
+      "detail": "96 of 96 generators mix X and Z"
+    },
+    {
+      "check": "k_matches_claim",
+      "ok": true,
+      "detail": "computed k=10, claimed 10"
+    },
+    {
+      "check": "k_at_least_1",
+      "ok": true,
+      "detail": "computed k=10; a submission must encode >= 1 logical qubit"
+    },
+    {
+      "check": "check_weight_is_ldpc",
+      "ok": true,
+      "detail": "max check weight 8"
+    },
+    {
+      "check": "model_version_specified",
+      "ok": true,
+      "detail": "GPT-6 Astra"
+    },
+    {
+      "check": "family_in_vocabulary",
+      "ok": true,
+      "detail": "other"
+    },
+    {
+      "check": "novelty_in_vocabulary",
+      "ok": true,
+      "detail": "known_parameters"
+    },
+    {
+      "check": "distance_P_witness",
+      "ok": true,
+      "detail": "weight=12 (claim 12), in_ker=True, nontrivial=True, hamming=16 (Y factors: 4)"
+    },
+    {
+      "check": "d_matches_pauli_side",
+      "ok": true,
+      "detail": "earned P = 12, claimed d = 12"
+    },
+    {
+      "check": "distance_not_refuted",
+      "ok": true,
+      "detail": "no lighter logical in 6340 RIS trials (seed 1557006449)"
+    }
+  ],
+  "ok": true,
+  "computed": {
+    "code_type": "stabilizer",
+    "n": 96,
+    "rank_S": 86,
+    "k": 10,
+    "max_check_weight": 8,
+    "weight_class": "weight-8",
+    "diagnostics": {
+      "tanner_girth": {
+        "S": 4
+      },
+      "weight_profile": {
+        "S": {
+          "row": {
+            "min": 7,
+            "max": 8,
+            "mean": 7.917
+          },
+          "column": {
+            "min": 7,
+            "max": 8,
+            "mean": 7.917
+          }
+        }
+      },
+      "trapping_sets": {
+        "max_size": 3,
+        "candidate_cap": 2000000,
+        "S": {
+          "complete_through_size": 3,
+          "counts": [
+            [
+              1,
+              7,
+              8
+            ],
+            [
+              1,
+              8,
+              88
+            ],
+            [
+              2,
+              10,
+              144
+            ],
+            [
+              2,
+              11,
+              120
+            ],
+            [
+              2,
+              12,
+              500
+            ],
+            [
+              2,
+              13,
+              144
+            ],
+            [
+              2,
+              14,
+              816
+            ],
+            [
+              3,
+              10,
+              32
+            ],
+            [
+              3,
+              11,
+              16
+            ],
+            [
+              3,
+              12,
+              400
+            ],
+            [
+              3,
+              13,
+              256
+            ],
+            [
+              3,
+              14,
+              2112
+            ],
+            [
+              3,
+              15,
+              1976
+            ],
+            [
+              3,
+              16,
+              7752
+            ],
+            [
+              3,
+              17,
+              4328
+            ],
+            [
+              3,
+              18,
+              13968
+            ],
+            [
+              3,
+              19,
+              2304
+            ],
+            [
+              3,
+              20,
+              9216
+            ],
+            [
+              3,
+              21,
+              104
+            ],
+            [
+              3,
+              22,
+              360
+            ]
+          ]
+        }
+      }
+    },
+    "locality_class": "unrestricted",
+    "flags": {
+      "css": false,
+      "stabilizer": true,
+      "locality_class": "unrestricted",
+      "modular": false
+    }
+  },
+  "earned_distance": {
+    "P": {
+      "value": 12,
+      "tier": "upper_bound"
+    },
+    "d": {
+      "value": 12,
+      "tier": "upper_bound"
+    }
+  },
+  "signature": {
+    "hash": "726dc4ec77bef5fc",
+    "n": 96,
+    "k": 10,
+    "d": 12
+  },
+  "fingerprint": "fb542f66ab7f22b0"
+}

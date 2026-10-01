@@ -1,0 +1,33 @@
+{
+  "manifest_version": "1",
+  "slug": "96-10-12",
+  "artifact_sha256": "52670fee7270d48ccd12051e8b8f526c53f7468dfe30598df0b56a6b2cb650d2",
+  "stages": {
+    "verify": {
+      "status": "applicable"
+    },
+    "construction": {
+      "status": "applicable",
+      "script": "research/astra_stabilizer_96/reproduce.py",
+      "args": [],
+      "budget_seconds": 60
+    },
+    "circuits": {
+      "status": "not_applicable",
+      "reason": "The circuit tier does not support general stabilizer entries."
+    },
+    "certify": {
+      "status": "not_applicable",
+      "reason": "No official exact-distance certificate is claimed."
+    },
+    "ler": {
+      "status": "not_applicable",
+      "reason": "No logical-error-rate claim is supplied."
+    }
+  },
+  "environment": {
+    "python": "3.13.7",
+    "validator_source_sha256": "546915a67cdca08c261b7e1682595c80036f082a9499ee809248391c9c653985"
+  },
+  "notes": "The constructor deterministically rebuilds this fixed code and checks the retained source and audit witnesses. It does not replay the exploratory search or claim an exact distance."
+}
