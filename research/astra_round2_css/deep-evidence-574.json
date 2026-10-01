@@ -1,0 +1,35 @@
+{
+  "trials": 100000,
+  "seed": 26010007,
+  "pair_depth": 20,
+  "result": {
+    "weight": 20,
+    "side": "X",
+    "support": [
+      43,
+      46,
+      79,
+      82,
+      145,
+      148,
+      175,
+      178,
+      349,
+      352,
+      355,
+      358,
+      385,
+      388,
+      397,
+      400,
+      451,
+      454,
+      481,
+      484
+    ],
+    "rejected": ""
+  },
+  "refuted": false,
+  "report_recovery": "Search completed and witness was saved successfully; a subsequent relative-path formatting error interrupted reporting. Report recovered from the retained witness artifact and recorded invocation.",
+  "candidate_fingerprint": "0d1ceed5a72462a7"
+}
