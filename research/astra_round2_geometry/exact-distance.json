@@ -1,5 +1,5 @@
 {
-  "name": "[[927,172,3]] contracted affine checkerboard",
+  "name": "Round 2 checkerboard boundary reduction",
   "d": 3,
   "solver": "CryptoMiniSat 5.14 SAT",
   "encoding": "selector",
@@ -19,8 +19,8 @@
       "note": "no logical < 3 exists"
     }
   },
-  "tlim_per_solve": 30,
-  "logical_classes": 172,
+  "tlim_per_solve": 15,
+  "logical_classes": 173,
   "symmetry": false,
   "d_exact": true
 }

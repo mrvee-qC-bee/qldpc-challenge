@@ -4459,10 +4459,7 @@
       "@mrvee-qC-bee"
     ],
     "construction": "Local pivot contractions of the public [[945,172,3]] checkerboard code; affine mod-5 hole grammar by @mathysrennela and rectangular completion by @vprusso. The exact moves and base-file hash are recorded in research/astra_geometric/recipe.json; research/astra_geometric/reproduce.py reconstructs the checks and coordinates without a distance search.",
-    "references": [
-      "https://github.com/unitaryfoundation/qldpc-challenge/blob/ac8a779bc40524d56a6afdd2133eabd931c99c1f/notes/945-172-3.md",
-      "https://github.com/unitaryfoundation/qldpc-challenge/pull/2031"
-    ],
+    "references": [],
     "date": "2026-10-01",
     "notes": "GPT-6 Astra boundary search, 2026-10-01. The unchanged trusted SAT certifier proves d=3 locally. Confidence remains upper_bound pending maintainer certification. Literature-wide novelty is unverified.",
     "model": "GPT-6 Astra",
