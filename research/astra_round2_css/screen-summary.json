@@ -1,8 +1,0 @@
-{
-  "predicted_nonduplicate_candidates": 134,
-  "screened": 134,
-  "retained_product_bound": 134,
-  "screen_refutations": [],
-  "raw_nondominated_after_screen": 134,
-  "boundaries": "Parameter-only board screen over raw current CSS records; does not certify novelty. 1,000 fast RIS trials per candidate, seed20261001+100*i+3; product witnesses also retained."
-}
