@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "candidate": {
+    "n": 144,
+    "k": 10,
+    "d": 16,
+    "family": "other",
+    "weight_class": "weight-8",
+    "locality_class": "unrestricted",
+    "fingerprint": "8c4f4b3d3e4bb874",
+    "signature": "09c94a02c794f946"
+  },
+  "gates": {
+    "verify": {
+      "ok": true,
+      "failed_checks": [],
+      "weight_class": "weight-8",
+      "locality_class": "unrestricted"
+    },
+    "refute": {
+      "refuted": false,
+      "seed": 1869019404,
+      "detail": "no lighter logical in 8000 RIS trials (seed 1869019404)"
+    },
+    "dedup": {
+      "exact_duplicate_of": null,
+      "wl_equivalent_of": null
+    },
+    "novelty": {
+      "cell": [
+        "weight-8",
+        "unrestricted"
+      ],
+      "board": "stabilizer",
+      "board_advancing": true,
+      "dominated_by": [],
+      "advances_by": [],
+      "d_only_gain": false,
+      "d_only_peers": [],
+      "literature_novelty": "unverified"
+    }
+  },
+  "labels": [
+    "advances the weight-8 x unrestricted stabilizer board",
+    "literature novelty UNVERIFIED"
+  ],
+  "validator": {
+    "source_sha256": "546915a67cdca08c261b7e1682595c80036f082a9499ee809248391c9c653985",
+    "seed": 1869019404
+  }
+}
